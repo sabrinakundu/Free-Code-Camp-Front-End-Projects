@@ -1,0 +1,58 @@
+body {
+  background:url('http://myrabridgforth.com/wp-content/uploads/blue-sky-clouds.jpg');
+  background-size: cover;
+}
+
+p {
+  font-family: Source Sans Pro;
+  font-size: 20px;
+}
+
+.header {
+  font-family: Source Sans Pro;
+  color:white;
+  font-size: 50px;
+}
+
+.location{
+  color:white;
+  font-family:Source Sans Pro;
+}
+.userlocation{
+  font-family:Source Sans Pro;
+  color:white;
+}
+.temperature{
+  color:white;
+  font-family:Source Sans Pro;
+}
+.temp{
+  font-family:Source Sans Pro;
+  color:white;
+}
+.weather{
+  font-family:Source Sans Pro;
+  color:white;
+}
+.unittoggle{
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+.icon{
+   width:200px;
+  height:200px;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+#footer {
+  bottom: 0;
+  text-align: center;
+}

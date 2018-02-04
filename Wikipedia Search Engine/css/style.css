@@ -1,0 +1,147 @@
+body {
+  font-family: "Roboto", Times New Roman, serif;
+  background-color: #191970;
+  color: white;
+}
+img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#search {
+  position: relative;
+  width: 600px;
+  margin: auto;
+}
+#search-input {
+  background: transparent;
+  padding: 5px 15px;
+  padding-right: 30px;
+  width: 100%;
+  height: 50px;
+  color: white;
+  border: 5px solid #FB8F01;
+  outline: 0;
+  font-size: 15pt;
+}
+#microphone a {
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-right: 7px;
+  height: 50px;
+  color: #F8EB3C;
+  cursor: pointer;
+}
+#microphone a:hover {
+  color: #ff8000;
+}
+.listen {
+  color: red;
+}
+#search-complete {
+  display: none;
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  right: 0;
+  top: 50px;
+  margin: 0 auto;
+  padding: 5px 15px;
+  width: 100%;
+  background-color: white;
+  color: black;
+  border: 5px solid #FB8F01;
+  border-top: 0;
+  text-align: left;
+}
+#search-complete #auto-results {
+  list-style: none;
+  margin: 0 -5px;
+  padding: 0;
+}
+#search-complete #auto-results .auto-result {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  outline: 0;
+  height: 30px;
+  margin: 4px 0;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+#search-complete #auto-results .auto-result:last-of-type {
+  border-bottom: 0;
+}
+#search-complete #auto-results .auto-result:hover {
+  cursor: pointer;
+  background-color: #DDD;
+}
+#search-complete #auto-results .auto-result.selected {
+  color: white;
+  background: #191970;
+}
+.auto #search-input {
+  border-bottom: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.auto #search-complete {
+  display: block;
+}
+#success {
+  z-index: 1;
+  display: none;
+  text-align: left;
+}
+#success #results {
+  list-style: none;
+}
+#success #results .result {
+  background: #EDEDED;
+  margin: 10px 0;
+  padding: 0;
+  color: black;
+}
+#success #results .result a {
+  display: block;
+  text-decoration: none;
+  margin: 0;
+  padding: 25px;
+}
+#success #results .result a:hover,
+#success #results .result a:active,
+#success #results .result a:link,
+#success #results .result a:visited,
+#success #results .result a:focus {
+  color: black;
+}
+#success #results .result a:hover {
+  color: black;
+  border-left: 100px solid #FB8F01;
+  transition: border-left 200ms;
+}
+#success #results .result a h1 {
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+#success #results .result a p {
+  margin: 0;
+  padding: 0;
+}
+#failed {
+  display: none;
+  z-index: 1;
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px;
+  color: white;
+  border: 5px solid #D86E31;
+  font-size: 4.0em;
+}

@@ -1,0 +1,34 @@
+/* The version of Bourbon used in this Pen was 4.* */
+@import "bourbon";
+
+$red: #F47564;
+$grey: #E4E0E1;
+$green: #8FD7D6;
+
+body {
+  color: $green;
+  background-color: $red;
+  font-family: "Lobster";
+}
+
+#header {
+  background-color: rgba(0,0,0,0.4);
+  border: 5px white solid;
+  border-radius: 25px;
+}
+
+img{
+  width: 100px;
+  border-radius: 50%;
+}
+
+.col-md-4{
+  padding: 5px;
+}
+
+.row {
+  background-color: rgba(0,0,0,0.4);
+  border: 5px white solid;
+  border-radius: 25px;
+  margin: 20px;
+}

@@ -1,0 +1,63 @@
+html, body {
+  background: url("http://i63.tinypic.com/hvzdw0.jpg");
+  background-repeat: no-repeat;
+  background-size: 1367px 605px;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: white;
+  font-family: 'Oswald';
+}
+
+h2 {
+  color: white;
+  font-family: 'Prompt';
+}
+
+#calcOutput {
+  background-color: white;
+  height: 75px;
+  width: 250px;
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 140px;
+  padding-top: 20px;
+  border-top: 3px solid black;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+}
+
+#calculator {
+  background-color: #ffb6c1;
+  width: 250px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-bottom-left-radius: 2em;
+  border-bottom-right-radius: 2em;
+  border-bottom: 3px solid black;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#steps {
+  padding-left: 50px;
+  font-size: 2em;
+}
+
+.bigButton {
+  width: 93px;
+}
+
+a {
+  margin: 5px;
+  width: 2.6vw;
+  height: 2.6vw;
+  
+}

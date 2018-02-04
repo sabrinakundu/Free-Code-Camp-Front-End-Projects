@@ -1,0 +1,61 @@
+.quote, .author {
+  color: black;
+}
+button {
+  font-family: 'IM Fell DW Pica SC', serif;
+  font-size: ;
+}
+h1 {
+  font-family: Lato,arial,sans-serif;
+  font-weight: 700;
+  padding-top: 50px;
+}
+ 
+.quotes {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 40px;
+  font-size: 30px;
+  padding-bottom: 50px;
+  height: auto;
+}
+.quote {
+  display: block;
+  font-family: Lato,arial,sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+.author{
+  display: block;
+  float: right;
+  font-family: "Times New Roman";
+  font-style: italic;
+  font-weight: 500;
+  font-size: 25px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://image.freepik.com/free-photo/beautiful-sky-with-mountains-in-the-distance_1232-718.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+}
+
+.container {
+  margin-top: 10%;
+}
+
+p {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 20px;
+}
+
+button:hover {
+  box-shadow: 4px 4px;
+  transition: 1s;
+}
+
+button:active {
+  transform: translateY(4px);
+}

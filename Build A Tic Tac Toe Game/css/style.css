@@ -1,0 +1,41 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #1c1c1c;
+  text-align: center;
+}
+
+canvas {
+  background-color:#ff0080;
+  box-shadow: 20px 20px 50px #1c1c1c;
+  transition: width 1s, height 1s, opacity 1s, transform 1s;
+  -webkit-transition: -webkit-transform 1s;
+  -moz-transition: -moz-transform 1s;
+  -ms-transition: -ms-transform 1s;
+  -o-transition: -o-transform 1s;
+}
+
+canvas:hover {
+  width: 101px;
+  height: 99px;
+}
+
+#canvasDiv {
+  margin: 100px auto 40px;
+}
+
+#resetButton {
+  text-decoration: none;
+  color: #ff1d8e;
+  font: 30px tahoma;
+  text-shadow: 5px 5px 30px white;
+}
+
+#resetButton:hover {
+  font-size: 32px;
+  cursor: pointer;
+  color: white;
+}

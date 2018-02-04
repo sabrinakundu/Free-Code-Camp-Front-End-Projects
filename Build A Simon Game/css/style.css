@@ -1,0 +1,113 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.jumbotron {
+  background-image: url("http://www.fabrictraders.com.au/image/cache//old_images/1-Michael%20Miller/broadcloth-cotton-couture-fabric-in-fuschia-by-michael-miller-1010-500x500.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed;
+}
+#content {
+            color: #000002;
+            font-size: 40px;
+            text-align: center;
+            height: 100%;
+        }
+
+        h1 {
+            color: #000002;
+            font-size: 20px;
+        }
+
+        #one {
+            height: 100px;
+            width:100px;
+            text-align: center;
+            align-content: center;
+
+        }
+
+        #two {
+            height: 100px;
+            width: 100px;
+            text-align: center;
+            align-content: center;
+
+        }
+
+        #three {
+            height: 100px;
+            width: 100px;
+            margin-top: 20px;
+            text-align: center;
+            align-content: center;
+
+        }
+
+        #four {
+            height: 100px;
+            width: 100px;
+            margin-top: 20px;
+            text-align: center;
+            align-content: center;
+
+        }
+
+        .dark1 {
+            background-color: #10b958;
+        }
+
+        .light1 {
+            background-color: #13FF75;
+        }
+
+        .dark2 {
+            background-color: #c61611;
+        }
+
+        .light2 {
+            background-color: #ff1c15;
+        }
+
+
+        .dark3 {
+            background-color: #dddf1a;
+        }
+
+        .light3 {
+            background-color: #fdff1d;
+        }
+
+        .dark4 {
+            background-color: #5ac5c6;
+        }
+
+        .light4 {
+            background-color: #73feff;
+        }
+
+        .bt {
+            height: 60px;
+            width: 100px;
+            margin: 6px;
+            text-align: center;
+            align-content: center;
+            background-color: #d3d3d3;
+        }
+
+
+
+        .img {
+            height: 12px;
+            width: 12px;
+            text-align: center;
+            align-content: center;
+
+        }
+
+        .footer{
+            margin:auto;
+            text-align:center;
+        }

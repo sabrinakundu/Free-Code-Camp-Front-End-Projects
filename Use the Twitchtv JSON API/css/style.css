@@ -1,0 +1,27 @@
+body {
+  color: #8FD7D6;
+  background-color: #F47564;
+  font-family: "Lobster";
+}
+
+#header {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 5px white solid;
+  border-radius: 25px;
+}
+
+img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.col-md-4 {
+  padding: 5px;
+}
+
+.row {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 5px white solid;
+  border-radius: 25px;
+  margin: 20px;
+}
